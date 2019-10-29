@@ -1,0 +1,210 @@
+#screen {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+
+  background-color: #800000;
+}
+
+#login-win {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+
+  background-color: #ffffff;
+  border-radius: 3pt;
+  padding: 1em 3em;
+}
+
+#login-err {
+  color: #800000;
+}
+
+#login-win label {
+  color: #808080;
+  display: block;
+  margin: 1em;
+}
+
+#login-win input {
+  border: 1px solid #800000;
+  border-radius: 3pt;
+
+  display: block;
+  width: 3in;
+
+  height: 24pt;
+  line-height: 24pt;
+  padding: 0 8pt;
+
+  font-family: serif;
+  font-size: 16px;
+}
+
+#login-win input[type=submit] {
+  background-color: #800000;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+#login-win input[type=submit] {
+  margin: 1em auto 0 auto;
+}
+
+
+
+header {
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+
+  height: 48pt;
+  line-height: 48pt;
+  background-color: #800000;
+  padding: 0 24pt;
+}
+
+header h1 {
+  color: #ffffff;
+
+  margin: 0;
+  padding: 0;
+}
+
+header #logout {
+  float: right;
+}
+
+header a {
+  display: inline-block;
+  background-color: #ffffff;
+  border-radius: 3pt;
+  color: #800000;
+
+  height: 24pt;
+  line-height: 24pt;
+  padding: 0 8pt;
+
+  cursor: pointer;
+}
+
+
+
+#users {
+  top: 4em;
+  left: 0;
+  bottom: 0;
+  width: 2in;
+  position: fixed;
+
+  background-color: #cccccc;
+  overflow: auto;
+}
+
+#users div {
+  padding: 1em 1em 0 1em;
+}
+
+#users ul {
+  margin-top: 0.5em;
+  font-weight: bold;
+}
+
+
+
+#messages {
+  top: 48pt;
+  left: 2in;
+  right: 0;
+  bottom: 36pt;
+  position: fixed;
+
+  overflow-wrap: break-word;
+  overflow-y: scroll;
+}
+
+#messages ul {
+  list-style: none;
+}
+
+#messages li {
+  padding: 1pt;
+}
+
+#messages .sender {
+  margin-top: 1em;
+  margin-bottom: 2pt;
+  font-weight: bold;
+  color: #800000;
+}
+
+#messages .time {
+  display: inline-block;
+  padding-left: 1em;
+  font-weight: normal;
+  font-size: 90%;
+  color: #c0c0c0;
+}
+
+#messages .note {
+  font-style: italic;
+  font-size: 80%;
+  color: #c0c0c0;
+}
+
+#messages .user + .note {
+  margin-top: 1em;
+}
+
+
+
+#messagebox {
+  left: 2in;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+
+  height: 36pt;
+}
+
+#messagebox input {
+  box-sizing: border-box;
+  border-radius: 3pt;
+  display: block;
+
+  font-family: serif;
+  font-size: 16px;
+}
+
+#messagebox div {
+  top: 6pt;
+  left: 12pt;
+  right: 64pt;
+  bottom: 6pt;
+  position: absolute;
+}
+
+#messagebox input[type=text] {
+  border: 1px solid #800000;
+  height: 100%;
+  width: 100%;
+
+  padding: 0 8pt;
+}
+
+#messagebox input[type=submit] {
+  background-color: #800000;
+  border-style: none;
+  cursor: pointer;
+  color: #ffffff;
+
+  top: 6pt;
+  width: 48pt;
+  right: 12pt;
+  bottom: 6pt;
+  position: absolute;
+}
